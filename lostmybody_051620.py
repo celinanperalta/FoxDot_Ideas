@@ -2,6 +2,8 @@ Scale.default = Scale.minor
 Root.default = 'C'
 Clock.bpm = 150
 
+# this one's for my g naoufel
+
 prog = [0, 1, 2, 4]
 
 p1 >> ambi(prog, dur=1/2, amp=1.5) + var([0, -2, -4, -4], 8)
@@ -20,10 +22,3 @@ b1 >> jbass([0, 2, 3, 5], dur=8, amp=3, fmod=2)
 
 d1 >> play("x  x xx x  x x  ", amp=2)
 d2 >> play("  |*4| ", dur=1, formant=0, lpf=2000, hpf=500)
-
-
-
-
-
-
-
